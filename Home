@@ -1,0 +1,294 @@
+https://github.com/oneemerpus/Musiolithicsociety.git
+<!DOCTYPE html>
+<html>
+<head> 
+ <title>Social Clubs | Home</title>
+
+<meta name="description" content="Social Clubs">
+  
+<meta name="keywords" content="Social Clubs">
+
+<meta name="author" content="Social Clubs">
+  
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">  
+ <link rel="stylesheet" href="https://musiolithicsociety.com/assets/css/bootstrap.min.css"  >
+ <link rel="stylesheet" href="https://musiolithicsociety.com/assets/css/animate.min.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+ <script src="https://musiolithicsociety.com/assets/js/jquery-3.3.1.min.js"  ></script>
+ <link rel="shortcut icon" type="image/x-icon" href="https://musiolithicsociety.com/uploads/a9582-b2221-musio.png">
+ <!------ Include the above in your HEAD tag ---------->
+ <style>
+  .error{
+   color: #fa8131;
+   font-weight: 500;
+   letter-spacing: 1px;
+ }
+ @import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Poiret+One);body,html{height:100%;background-repeat:no-repeat;background:#000;position:relative}#login-box{position:absolute;top:0;left:50%;transform:translateX(-50%);width:350px;margin:0 auto;border:1px solid #000;background:#302e2d;min-height:250px;padding:20px;z-index:9999}#login-box .logo .logo-caption{font-family:'Poiret One',cursive;color:#fff;text-align:center;margin-bottom:0}#login-box .logo .tweak{color:#ff5252}#login-box .controls{padding-top:30px}#login-box .controls input{border-radius:0;background:#626060;border:0;color:#fff;font-family:Nunito,sans-serif}#login-box .controls input:focus{box-shadow:none}#login-box .controls input:first-child{border-top-left-radius:2px;border-top-right-radius:2px}#login-box .controls input:last-child{border-bottom-left-radius:2px;border-bottom-right-radius:2px}#login-box button.btn-custom{border-radius:2px;margin-top:8px;background:#ff5252;border-color:#302e2d;color:#fff;font-family:Nunito,sans-serif}#login-box button.btn-custom:hover{-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;background:#302e2d;border-color:#ff5252}#particles-js{width:100%;height:100%;background-size:cover;background-position:50% 50%;position:fixed;top:0;z-index:1}body,html{height:100%;margin:0;background:#020024;background:linear-gradient(90deg,#fff 0,#ee2a24 0,#fcd722 96%)}.myForm{background-color:rgba(0,0,0,.5)!important;padding:15px!important;border-radius:15px!important;color:#fff}input{border-radius:0 15px 15px 0!important}input:focus{outline:0;box-shadow:none!important;border:1px solid #ccc!important}.br-15{border-radius:15px 0 0 15px!important}#add_more,.add_more{color:#fff!important;background-color:#fa8231!important;border-radius:15px!important;border:0!important}#remove_more{color:#fff!important;background-color:#fc5c65!important;border-radius:15px!important;border:0!important;display:none}.submit_btn{border-radius:15px!important;background-color:#95c714!important;border:0!important
+ }
+ #particles-js {
+   border: 1px solid black;
+   background-image: url('smiley.gif');
+   background-position: top left;
+   animation: mymove 10s infinite;
+ }
+ @keyframes mymove {
+   50% {
+    background-position: center;
+  }
+}
+</style>
+</head>
+<body>
+ <div id="particles-js" style="background-image: url(https://musiolithicsociety.com/uploads/login-back.jpg);" >
+  <dvi class="container h-100" style="    z-index: 90;  position: absolute;left: 0;
+  right: 0;">
+  <div class="d-flex justify-content-center">
+   <div class="card mt-5 col-md-4 animated bounceInDown myForm">
+    <form action="https://musiolithicsociety.com/signup" method="POST" id="signup" style="display:none" autocomplete="off">
+     <div class="card-header">
+      <center> <img src="https://musiolithicsociety.com/uploads/b2221-musio.png" style="width:100%;"></center>
+      <h4 class="text-center  " style="padding-top:5px;">  Signup</h4>
+    </div> 
+       <div class="card-body">
+    <div id="dynamic_container">
+     <div class="input-group">
+      <div class="input-group-prepend">
+       <span class="input-group-text br-15"><i class="fas fa-user"></i></span>
+     </div>
+     <input required   value="" required=""  type="text" placeholder="Name" class="form-control"   name="name"   />
+   </div>
+   <strong class="error"></strong> 
+   <div class="input-group mt-3" >
+    <div class="input-group-prepend">
+     <span class="input-group-text br-15"><i class="fas fa-envelope"></i></span>
+   </div>
+   <input required   value="" required="" type="email" placeholder="Email" class="form-control"   name="email"  />
+ </div> <strong class="error"></strong> 
+ <div class="input-group mt-3">
+  <div class="input-group-prepend">
+   <span class="input-group-text br-15"><i class="fas fa-phone"></i></span>
+ </div>
+ <input required   value="" required="" type="text" placeholder="Phone" class="form-control"   name="phone"  />
+</div> <strong class="error"></strong> 
+<div class="input-group mt-3">
+  <div class="input-group-prepend">
+   <span class="input-group-text br-15"><i class="fas fa-lock"></i></span>
+ </div>
+ <input required   value="" required="" type="password" placeholder="Password" class="form-control"   name="password"  />
+</div><strong class="error"></strong> 
+</div>
+</div>
+<div class="card-footer">
+  <p>
+   Already have an account? <a href="javascript:void(0);" id="showLogin" >Login</a></p>
+   <center>  <button   type="submit" name="signup"  class="btn btn-success btn-sm   submit_btn"><i class="fas fa-arrow-alt-circle-right"></i> Signup</button></center>
+ </div>
+</form>
+<form action="https://musiolithicsociety.com/validate-login" method="POST" id="login_form">
+  <div class="card-header">
+   <center> <img src="https://musiolithicsociety.com/uploads/b2221-musio.png" style="width:100%;"></center>
+   <h4 class="text-center  " style="padding-top:5px;">  Login</h4>
+ </div>  
+ <div class="card-body">
+ <div id="dynamic_container">
+  <div class="input-group">
+   <div class="input-group-prepend">
+    <span class="input-group-text br-15"><i class="fas fa-envelope"></i></span>
+  </div>
+  <input required   required="" type="text" placeholder="Enter your email id" class="form-control"   name="email"  />
+</div>
+<div class="input-group mt-3">
+ <div class="input-group-prepend">
+  <span class="input-group-text br-15"><i class="fas fa-lock"></i></span>
+</div>
+<input required   required="" type="password" placeholder="Enter your password" class="form-control"   name="password"  />
+</div>
+</div>
+</div>
+<div class="card-footer">
+ <p>
+  Don't have an account yet? <a href="javascript:void(0);" id="showSignup" >create now</a></p>
+  <a class="btn btn-secondary btn-sm" id="add_more"><i class="fas fa-key"></i> Forgot Password</a>
+  <!--<a class="btn btn-secondary btn-sm" id="remove_more"><i class="fas fa-trash-alt"></i> Remove</a>-->
+  <button type="submit" name="login"  class="btn btn-success btn-sm float-right submit_btn"><i class="fas fa-arrow-alt-circle-right"></i> Submit</button>
+</div>
+</form>
+<form action="https://musiolithicsociety.com/forgot-password" method="POST" id="forgot_password" style="display: none;"> 
+ <div class="card-header">
+  <center> <img class="w-100" src="https://musiolithicsociety.com/uploads/b2221-musio.png"></center>
+  <h4 class="text-center  " style="padding-top:5px;">  Forgot Password</h4>
+</div>  
+<div class="card-body">
+  <div id="dynamic_container">
+   <div class="input-group">
+    <div class="input-group-prepend">
+     <span class="input-group-text br-15"><i class="fas fa-envelope"></i></span>
+   </div>
+   <input required   required="" type="email" placeholder="Enter your Email id" class="form-control"   name="email"  />
+ </div>
+</div>
+</div>
+<div class="card-footer">
+  <a class="btn btn-secondary btn-sm add_more" id="showLogin2"><i class="fas fa-key"></i>  Login</a>
+  <button type="submit" name="submit"  class="btn btn-success btn-sm float-right submit_btn"><i class="fas fa-arrow-alt-circle-right"></i> Submit</button>
+</div>
+</form>
+</div>
+</div>
+</dvi>
+</div> 
+<script>
+ $.getScript("https://musiolithicsociety.com/assets/js/particles.min.js", function(){
+  particlesJS('particles-js',
+  {
+   "particles": {
+    "number": {
+     "value": 80,
+     "density": {
+      "enable": true,
+      "value_area": 800
+    }
+  },
+  "color": {
+   "value": "#ffffff"
+ },
+ "shape": {
+   "type": "circle",
+   "stroke": {
+    "width": 0,
+    "color": "#000000"
+  },
+  "polygon": {
+    "nb_sides": 5
+  },
+  "image": {
+    "width": 100,
+    "height": 100
+  }
+},
+"opacity": {
+ "value": 0.5,
+ "random": false,
+ "anim": {
+  "enable": false,
+  "speed": 1,
+  "opacity_min": 0.1,
+  "sync": false
+}
+},
+"size": {
+ "value": 5,
+ "random": true,
+ "anim": {
+  "enable": false,
+  "speed": 40,
+  "size_min": 0.1,
+  "sync": false
+}
+},
+"line_linked": {
+ "enable": true,
+ "distance": 150,
+ "color": "#ffffff",
+ "opacity": 0.4,
+ "width": 1
+},
+"move": {
+ "enable": true,
+ "speed": 6,
+ "direction": "none",
+ "random": false,
+ "straight": false,
+ "out_mode": "out",
+ "attract": {
+  "enable": false,
+  "rotateX": 600,
+  "rotateY": 1200
+}
+}
+},
+"interactivity": {
+  "detect_on": "canvas",
+  "events": {
+   "onhover": {
+    "enable": true,
+    "mode": "repulse"
+  },
+  "onclick": {
+    "enable": true,
+    "mode": "push"
+  },
+  "resize": true
+},
+"modes": {
+ "grab": {
+  "distance": 400,
+  "line_linked": {
+   "opacity": 1
+ }
+},
+"bubble": {
+  "distance": 400,
+  "size": 40,
+  "duration": 2,
+  "opacity": 8,
+  "speed": 3
+},
+"repulse": {
+  "distance": 200
+},
+"push": {
+  "particles_nb": 4
+},
+"remove": {
+  "particles_nb": 2
+}
+}
+},
+"retina_detect": true,
+"config_demo": {
+  "hide_card": false,
+  "background_color": "#b61924",
+  "background_image": "",
+  "background_position": "50% 50%",
+  "background_repeat": "no-repeat",
+  "background_size": "cover"
+}
+}
+);
+});
+ var i=0;
+ $(document).ready(function(){
+    $('#add_more').on('click', function(){
+   $('#login_form').hide();
+   $('#forgot_password').show();
+ });
+ $('#showSignup').on('click', function(){
+   $('#login_form').hide();
+   $('#signup').show();
+ });
+ $('#showLogin').on('click', function(){
+   $('#login_form').show();
+   $('#signup').hide();
+ });$('#showLogin2').on('click', function(){
+   $('#login_form').show();
+   $('#signup').hide();
+   $('#forgot_password').hide();
+ });
+ $('#remove_more').on('click', function(){
+   $('#append_no_'+i).removeClass('bounceInLeft').addClass('bounceOutRight')
+   .fadeOut(function(){
+    $(this).remove();
+  });
+   i--;
+   if(i==0){
+    $('#remove_more').fadeOut(function(){
+     $(this).hide()
+   });;
+  }
+});
+});
+</script>
+</body>
+</html>
